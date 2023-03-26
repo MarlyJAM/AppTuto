@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTuto.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="newUser"  Placeholder="Name"/>
+        <Button x:Name="setButton" Text="Add" Clicked="SetButtonClicked"/>
+        <Button x:Name="getButton" Text="Show" Clicked="GetButtonClicked"/>
+        <Label x:Name="statusMessage"/>
+    </StackLayout>
+
+</ContentPage>
